@@ -1,4 +1,4 @@
-## Créateur
+## Créateurs
 
 Bastien Willet, Marion Vellard
 
