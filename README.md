@@ -8,7 +8,7 @@ Le site de ma start-up de Kebab qui a foiré :(.
 
 ## Comment accéder au programme sur Heroku ?
 
-Lien -> [Startup Foodtech](URL)<br />
+Lien -> [Startup Foodtech](https://startupfoodtechhuhu.herokuapp.com/)<br />
 
 ## Comment accéder au programme en local ?
 
