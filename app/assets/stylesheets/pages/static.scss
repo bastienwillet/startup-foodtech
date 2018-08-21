@@ -1,0 +1,43 @@
+.page-content
+{
+    text-align: center;
+    line-height: 1.9em;
+}
+
+.tab-content
+{
+    position: absolute;
+    width: 70%;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+}
+
+.a-special
+{
+    text-decoration: underline;
+}
+
+.p-special
+{
+    margin-bottom: 50px;
+}
+
+.p-special2
+{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+@media all and (max-width: 1400px) {
+    .tab-content
+    {
+        font-size: 1em;
+    }
+
+    .p-special
+    {
+        margin-bottom: 35px;
+    }
+}

@@ -1,0 +1,38 @@
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: 20px;
+    padding: 30px 40px;
+}
+
+.navbar-left
+{
+    width: 198px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo
+{
+    width: 45px;
+    height: 45px;
+}
+
+.navbar-title
+{
+    font-size: 1.6em;
+}
+
+.navbar-item:hover
+{
+    filter: opacity(70%);
+    transition: all  0.25s ease;
+}

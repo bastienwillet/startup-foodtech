@@ -1,0 +1,94 @@
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="navbar-left navbar-item">
+        <div><a href="/" target="_blank">
+            <%= image_tag "icons/doner-logo.png", class: "navbar-logo" %>
+        </div><div>
+            <h1 class="navbar-title">Doner Land</h1>
+        </div></a>
+    </div>
+</nav>
+
+<!-- Corps de la page -->
+<section class="page-content">
+
+    <!-- Sélectionneur de tab -->
+    <div class="tab-selector-box">
+        <div class="tab-selector tab-selector-left" id="tab1-selector">
+            <p>Présentation</p>
+        </div><div class="tab-selector tab-selector-middle" id="tab2-selector">
+            <p>Menu</p>
+        </div><div class="tab-selector tab-selector-right" id="tab3-selector">
+            <p>Commande</p>
+        </div>
+    </div>
+
+    <!-- Tab1 -->
+    <div class="tab-content" id="tab1-content">
+        <p class="p-special p-special2">Nos fans parlent pour nous :</p>
+        <p>"N'ayant pas goûté tous les kebabs de France, je ne peux vous dire que c'est le meilleur, mais pour moi, il l'est. Lol !"</p>
+        <p class="p-special">- Roger V. sur TripAdvisor</p>
+        <p>"Ne cherchez pas, prenez les frites de patates douces. Les ingrédients sont frais, on sent que la broche à Kebab est faite maison, d'ailleurs elle goûte grave la sueur du patron"</p>
+        <p class="p-special">- Renée R. sur doctissimo.com</p>
+        <p>"Étant une grosse mangeuse, les portions sont gourmandes et tout ça pour le prix d'un macdo. Bref, un très bon site oueb."</p>
+        <p>- Maryse U. sur Google Maps</p>
+    </div>
+
+    <!-- Tab2 -->
+    <div class="tab-content" id="tab2-content">
+        <div class="carrousel-content">
+            <div id="carrousel-photo1">
+                <div class="carousel-image-box">
+                    <%= image_tag "icons/arrow-left.png", class: "carousel-arrow carousel-arrow-left" %>
+                    <%= image_tag "photos/photo-kebab.png", class: "carousel-photo" %>
+                    <%= image_tag "icons/arrow-right.png", class: "carousel-arrow carousel-arrow-right" %>
+                </div>
+                <p class="carousel-description">Un grokebab, la base.</p>
+            </div><div id="carrousel-photo2">
+                <div class="carousel-image-box">
+                    <%= image_tag "icons/arrow-left.png", class: "carousel-arrow carousel-arrow-left" %>
+                    <%= image_tag "photos/photo-burger.png", class: "carousel-photo" %>
+                    <%= image_tag "icons/arrow-right.png", class: "carousel-arrow carousel-arrow-right" %>
+                </div>
+                <p class="carousel-description">Un hamburger. Généralement le steak est dégueulasse, déso</p>
+            </div><div id="carrousel-photo3">
+                <div class="carousel-image-box">
+                    <%= image_tag "icons/arrow-left.png", class: "carousel-arrow carousel-arrow-left" %>
+                    <%= image_tag "photos/photo-pizza.png", class: "carousel-photo" %>
+                    <%= image_tag "icons/arrow-right.png", class: "carousel-arrow carousel-arrow-right" %>
+                </div>
+                <p class="carousel-description">Une pizza. Sympa le basilic hein ?</p>
+            </div><div id="carrousel-photo4">
+                <div class="carousel-image-box">
+                    <%= image_tag "icons/arrow-left.png", class: "carousel-arrow carousel-arrow-left" %>
+                    <%= image_tag "photos/photo-panini.png", class: "carousel-photo" %>
+                    <%= image_tag "icons/arrow-right.png", class: "carousel-arrow carousel-arrow-right" %>
+                </div>
+                <p class="carousel-description">Un panini. Avec ça tu grossiras un peu moins</p>
+            </div><div id="carrousel-photo5">
+                <div class="carousel-image-box">
+                    <%= image_tag "icons/arrow-left.png", class: "carousel-arrow carousel-arrow-left" %>
+                    <%= image_tag "photos/photo-texmex.png", class: "carousel-photo" %>
+                    <%= image_tag "icons/arrow-right.png", class: "carousel-arrow carousel-arrow-right" %>
+                </div>
+                <p class="carousel-description">Un poulicroc-salade comme disent nos voisins belges !</p>
+            </div>
+            <div class="carousel-dot-box">
+                <%= image_tag "icons/dot.png", class: "carousel-dot", id: "carrousel-dot1" %>
+                <%= image_tag "icons/dot.png", class: "carousel-dot", id: "carrousel-dot2" %>
+                <%= image_tag "icons/dot.png", class: "carousel-dot", id: "carrousel-dot3" %>
+                <%= image_tag "icons/dot.png", class: "carousel-dot", id: "carrousel-dot4" %>
+                <%= image_tag "icons/dot.png", class: "carousel-dot", id: "carrousel-dot5" %>
+            </div>            
+        </div>
+    </div>
+
+    <!-- Tab3 -->
+    <div class="tab-content" id="tab3-content">
+        <p class="p-special p-special2">Les commandes sont fermées :(</p>
+        <p>Ben ouaais on a grave déconné avec cette startup. On a grandi dans le 16 nous ! On savait pas que des kebabs y en a de partout chez les pauvres.</p>
+        <p>Et pis notre charte graphique est moisie faut bien l'avouer.</p>
+        <p class="p-special">Par contre, comme des investisseurs chelous nous ont filé plein de pognon on a pu se faire des supers restos yeah !</p>
+        <p class="p-special2">Du coup conseil : déjà habite à Paris lol lol, puis va bouffer <a href="https://www.google.com/maps/place/Café+la+Jatte/@48.8967095,2.268342,17z/data=!3m1!4b1!4m5!3m4!1s0x47e665786c5cc5d1:0xf93220c306969df3!8m2!3d48.896706!4d2.270536" target="_blank" class="a-special">ici</a>, <a href="https://www.google.com/maps/place/Kodawari+Ramen/@48.8546167,2.3359443,17z/data=!3m1!4b1!4m5!3m4!1s0x47e671d8cee50be3:0xe73cffb0381b3105!8m2!3d48.8546132!4d2.3381383" target="_blank" class="a-special">là</a> ou <a href="https://www.google.com/maps/place/The+Beast/@48.8698553,2.3778558,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66def452d9f99:0x70d4fb5181b75be5!8m2!3d48.8698517!4d2.3800501" target="_blank" class="a-special">lààà</a> :)</p>
+    </div>
+</section>

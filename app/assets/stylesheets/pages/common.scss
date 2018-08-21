@@ -1,0 +1,23 @@
+$background: #784BA0;
+$text: white;
+
+.container
+{ 
+    margin: 0 auto;
+    width: 100%;
+    position: fixed;
+}
+
+.wrapper
+{
+    height: 102vh;
+    background-color: $background;
+    background-image: linear-gradient(109.6deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+
+body, h1, h2, h3, h4, h5, h6, a
+{
+    font-family: 'Roboto', sans-serif;
+    color: $text;
+    text-decoration: none;
+}
