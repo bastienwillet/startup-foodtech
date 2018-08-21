@@ -4,7 +4,7 @@ Bastien Willet, Marion Vellard
 
 ## Synopsis
 
-Le site de ma start-up de Kebab qui a foiré :(.
+Le site de notre start-up de Kebab de ouf qui a foiré :(.
 
 ## Comment accéder au programme sur Heroku ?
 
