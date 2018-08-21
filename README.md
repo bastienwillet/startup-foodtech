@@ -1,6 +1,6 @@
 ## Créateur
 
-Bastien Willet
+Bastien Willet, Marion Vellard
 
 ## Synopsis
 
